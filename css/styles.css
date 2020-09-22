@@ -11,14 +11,13 @@ a {
   text-decoration: none;
 }
 
-.color,
-.color li a {
-  color: #fff;
+li {
+  list-style: none;
 }
 
 /* navbar */
+
 .navbar {
-  background-color: black;
   width: 100%;
   max-width: 100%;
   padding: 0;
@@ -26,14 +25,60 @@ a {
   margin-right: auto;
 }
 
-.nav-logo {
-  text-align: center;
-  padding-top: 10px;
+.bar {
+  padding-left: 35px;
+  padding-top: 20px;
 }
 
-.nav-logo a {
-  font-size: 26px;
+.nav-logo,
+.lists-ul li {
+  display: none;
 }
+
+.main-img img {
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+}
+
+ .main-contents{
+  position: absolute;
+  top: 18%;
+  left: 0;
+  right: 0;
+  text-align: center;
+ }
+
+ .content-head {
+   text-align: center;
+   padding-left: 0.625em;
+   color: #fff;
+ }
+
+ .latest-concert {
+   width: 100%;
+ }
+
+ .search-input {
+  width: 70%;
+  height: 30px;
+  font-size: 16px;
+}
+
+ .submit-button {
+  width: 15%;
+  height: 35px;
+ }
+
+ .submit-button i {
+  font-weight: 700;
+  font-size: 16px;
+  color: crimson;
+ }
+
+/*.nav-logo a {
+  font-size: 26px;
+} 
 
 .nav-logo span {
   color: #FF0078;
@@ -41,16 +86,13 @@ a {
   font-size: 28px;
 }
 
-.nav-list {
-  text-align: center;
-}
-
 .lists-ul li {
-  list-style: none;
   font-size: 18px;
-  padding-bottom: 5px;
+  text-align: center;
 }
 
 .lists-ul li a:hover {
   color: #FF0078;
-}
+}  */
+
+/* main contents */

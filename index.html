@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
   <title>Capstone-Project</title>
 </head>
+
 <body>
   <header>
-    <nav class="navbar">
+    <nav class="navbar flex">
+      <div class="bar">
+        <a href=""><i class="fas fa-bars fa-2x"></i></a>
+      </div>
       <div class="nav-logo">
-        <a href="" class="color">Concert<span>Promo</span></a>
+        <a href="index.html" class="color">Concert<span>Promo</span></a>
       </div>
       <div class="nav-list">
-        <ul class="lists-ul color">
+        <ul class="lists-ul color flex">
           <li><a href="about.html">About Us</a></li>
           <li class="dropdown"><a href="ticket.html">Get your Ticket</a></li>
           <li><a href="index.html">Log Out</a></li>
         </ul>
       </div>
-
     </nav>
   </header>
+  <main class="main-container">
+    <div class="main-img">
+      <img src="./images/concert.jpg" alt="concert-img"> 
+    </div>
+    <div class="main-contents">
+      <h2 class="content-head">CREATIVE CONCERTS PROMOTERS 2020</h2>
+      <div class="latest-concert">
+        <input type="text" name="search" class="search-input" value="Search by Artist or Venue">
+        <button type="submit" class="submit-button"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+    <div class="latest-concerts">
+      <div class="latest-concert-container">
+
+      </div>
+
+    </div>
+
+  </main>
 </body>
+
 </html>
