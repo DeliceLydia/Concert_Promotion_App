@@ -7,6 +7,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: #fff;
   background-image: url("https://cdn.cp.adobe.io/content/2/dcx/27ca247e-a832-4873-b3a1-4fe283d01e2a/rendition/preview.jpg/version/1/format/jpg/dimension/width/size/1200");
+  background-repeat: no-repeat;
 }
 
 a {
@@ -38,115 +39,124 @@ li {
 }
 
 .main-container {
-  background-image: url(../images/truck.jpg);
-  opacity: 0.1;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   height: 40vh;
   margin-top: -16px;
 }
 
 .main-contents {
-  text-align: center;
+  padding-top: 100px;
   /* background-image: linear-gradient(#272A31, #EC5242, #D3D3D3); */
 }
 
- .content-head {
-   text-align: left;
-   padding-left: 1em;
-   color: #f5990a;
-   padding-top: 50px;
- }
-
- .second-head {
+.content-head {
   text-align: left;
-  padding-left: 0.625em;
- }
+  color: #EC5242;
+  font-size: 30px;
+  font-weight: 800;
+  padding-left: 90px;
+}
 
- .latest-concert {
-   width: 100%;
- }
+.big-size {
+  font-size: 40px;
+  padding-left: 100px;
+  line-height: 1.2;
+}
 
- .search-input {
+.latest-concert {
+  width: 100%;
+}
+
+.search-input {
   width: 70%;
   height: 30px;
   font-size: 16px;
   border: 1px solid #e2e2e2;
 }
 
- .submit-button {
+.submit-button {
   width: 15%;
   height: 35px;
   border: 1px solid #e2e2e2;
- }
+}
 
- .submit-button i {
+.submit-button i {
   font-weight: 700;
   font-size: 16px;
   color: crimson;
- }
+}
 
- .trending {
+/*upcoming section */
+.upcoming {
+  background-image: url(../images/black.jpg);
+  height: auto; 
+  width: 80%;
+  margin: 140px auto 0 auto;
+}
+/*  */
+
+.trending {
   margin-top: -4px;
- }
+}
 
- .trending-concert {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
- }
+.trending-concert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
- .trending h5 {
-  color: #EC5242;
+.big-heading {
+  color: #fff;
   text-align: center;
-  font-size: 15px;
+  text-decoration: underline #EC5242;
+  font-size: 20px;
+  font-weight: 800;
   padding-top: 9px;
 }
 
- .artist img {
+.artist img {
   width: 90%;
   height: 200px;
   margin-top: 13px;
- }
+}
 
- .artist-name {
-   text-align: right;
-   margin-right: 36px;
-   margin-top: 4px;
-   color: black;
- }
+.artist-name {
+  text-align: right;
+  margin-right: 36px;
+  margin-top: 4px;
+  color: black;
+}
 
- label {
-   color: rgb(228, 36, 75);
- }
+label {
+  color: rgb(228, 36, 75);
+}
 
- .booking {
-   float: right;
-   height: 40px;
-   margin-right: 1.8em;
-   font-size: 15px;
-   font-weight: 700;
-   background-color: #e21937;
-   border: 0;
- }
+.booking {
+  float: right;
+  height: 40px;
+  margin-right: 1.8em;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #e21937;
+  border: 0;
+}
 
- .booking a {
+.booking a {
   color: #fff;
- }
+}
 
- @media all and (min-width: 768px) {
+@media all and (min-width: 768px) {
   .bar {
     display: none;
   }
-  
+
   .nav-logo,
   .lists-ul li {
     display: block;
   }
 
   .top-nav {
-    background-color: #272A31;
+    background-color: #272a31;
     padding-top: 1px;
     padding-bottom: 1px;
   }
@@ -192,39 +202,61 @@ li {
   }
 
   .lists-ul li a {
-    color: #272A31;
+    color: #272a31;
   }
 
   .lists-ul .first-li a {
-    color: #EC5242;
+    color: #ec5242;
   }
 
   .lists-ul .orange-border {
-    border: 4px solid #EC5242 ;
+    border: 4px solid #ec5242;
     padding: 10px;
     margin-left: 20px;
     margin-top: -10px;
   }
 
- .all-contents {
-  margin-left: 12px;
-  margin-right: 12px;
- }
+  .all-contents {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
 
- .main-img img {
-   height: 60vh;
- }
+  .main-img img {
+    height: 60vh;
+  }
 
- .main-contents {
-   top: 40%;
- }
+  .main-contents {
+    top: 40%;
+  }
 
- .search-input {
-   max-width: 40%;
- }
+  .flex-container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 32px;
+  }
 
- .trending-concert{
-   display: grid;
-   grid-template-columns: repeat(3, 2fr);
- }
+  .flex-article {
+    width: 100%;
+    height: 12em;
+    background-color: rgba(87, 83, 83, 0.418);
+    margin: 0.3em;
+    text-align: center;
+  }
+
+  .red-heading {
+    color: #ec5242;
+    font-size: 1.1em;
+  }
+
+  .flex-article p {
+    font-size: 0.9em;
+  }
+
+
+  .trending-concert {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
 }
