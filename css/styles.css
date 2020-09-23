@@ -64,11 +64,13 @@ li {
   width: 70%;
   height: 30px;
   font-size: 16px;
+  border: 1px solid #e2e2e2;
 }
 
  .submit-button {
   width: 15%;
   height: 35px;
+  border: 1px solid #e2e2e2;
  }
 
  .submit-button i {
@@ -96,7 +98,7 @@ li {
 
  .artist img {
   width: 90%;
-  height: 180px;
+  height: 200px;
   margin-top: 13px;
  }
 
@@ -108,25 +110,84 @@ li {
  label {
    color: rgb(228, 36, 75);
  }
+
+ @media all and (min-width: 768px) {
+  .bar {
+    display: none;
+  }
+  
+  .nav-logo,
+  .lists-ul li {
+    display: block;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+
+  .nav-logo img {
+    height: 40px;
+    width: 50px;
+  }
+  
+  .nav-logo a {
+    font-size: 26px;
+  } 
+
+  .nav-logo span {
+    color: rgb(145, 11, 11);
+    font-style: italic;
+    font-size: 28px;
+  }
+
+  .lists-ul {
+    margin-right: 20px;
+  }
+
+  .lists-ul li {
+    font-size: 18px;
+    padding-right: 15px;
+  }
+
+  .lists-ul li a {
+    color: maroon;
+  }
+
+ .lists-ul li a:hover {
+  color: rgb(145, 11, 11);
+ }
+
+ .all-contents {
+  margin-left: 12px;
+  margin-right: 12px;
+ }
+
+ .main-img img {
+   height: 60vh;
+ }
+
+ .main-contents {
+   top: 40%;
+ }
+
+ .search-input {
+   max-width: 40%;
+ }
+
+ .trending-concert{
+   display: grid;
+   grid-template-columns: repeat(3, 2fr);
+ }
+
+
+}
  
 
-/*.nav-logo a {
-  font-size: 26px;
-} 
-
-.nav-logo span {
-  color: #FF0078;
-  font-style: italic;
-  font-size: 28px;
-}
-
-.lists-ul li {
-  font-size: 18px;
-  text-align: center;
-}
-
-.lists-ul li a:hover {
-  color: #FF0078;
-}  */
 
 /* main contents */
