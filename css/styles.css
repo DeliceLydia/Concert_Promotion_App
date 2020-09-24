@@ -59,16 +59,12 @@ li {
 
 .main-container {
   width: 100%;
-  height: 40vh;
-  margin-top: -16px;
+  height: auto;
+  margin-top: 0 auto;
 }
 
 .main-contents {
-  /* background-image: url(../images/truck.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5; */
-  padding-top: 80px;
+  padding-top: 100px;
   margin-bottom: -100px;
 }
 
@@ -156,7 +152,7 @@ li {
 
 .big-heading {
   color: #fff;
-  text-align: center;;
+  text-align: center;
   font-size: 20px;
   font-weight: 800;
   padding-top: 9px;
@@ -172,7 +168,7 @@ li {
   text-align: right;
   margin-right: 30px;
   margin-top: 4px;
-  color: black;
+  color: #272a31;
 }
 
 label {
@@ -186,11 +182,67 @@ label {
   font-size: 15px;
   font-weight: 700;
   background-color:#ec5242;
+  border-radius: 3px;
   border: 0;
 }
 
 .booking a {
   color: #fff;
+}
+
+/* sponsors */
+
+.sponsors {
+  background-color: #272a31;
+  height: auto;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 13px;
+}
+
+.sponsors-list {
+  text-align: center;
+  margin-top: -17px;
+}
+
+.sponsors-list li {
+  padding-top: 7px;
+  font-size: large;
+}
+
+.sponsors-list li a {
+  color: #fff;
+}
+
+.bottom-head {
+  margin-left: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+.links ul li {
+  font-size: 18px;
+ }
+
+ .links ul li a {
+  color: #272a31;
+ }
+
+ .footer-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 16px;
+}
+
+.footer-logo img {
+  height: 50px;
+  width: 60px;
 }
 
 @media all and (min-width: 768px) {
@@ -208,6 +260,7 @@ label {
     background-color: #272a31;
     padding-top: 1px;
     padding-bottom: 1px;
+    width: 100%;
   }
 
   .top-nav-ul {
@@ -234,7 +287,7 @@ label {
 
   .big-size {
     font-size: 40px;
-    padding-left: 100px;
+    padding-left: 140px;
     text-align: left;
   }
 
@@ -245,7 +298,7 @@ label {
 
   .nav-logo {
     margin-left: 100px;
-    margin-top: 5px;
+    margin-top: -8px;
   }
 
   .nav-logo img {
@@ -336,5 +389,21 @@ label {
   .strong {
     font-style: italic;
     font-size: 26px;
+  }
+
+  .sponsors-list {
+    display: flex;
+    justify-content: center;
+    margin-top: -17px;
+  }
+
+  .sponsors-list li {
+    padding-right: 20px;
+    font-size: 26px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
   }
 }
