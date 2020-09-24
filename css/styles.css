@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline #ec5242;
+}
+
 li {
   list-style: none;
 }
@@ -406,4 +410,8 @@ label {
     display: flex;
     justify-content: center;
   }
+
+  .links ul li {
+    padding-left: 80px;
+   }
 }
