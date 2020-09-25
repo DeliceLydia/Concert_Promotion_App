@@ -159,6 +159,24 @@ table td {
   margin-top: 3em;
 }
 
+td label {
+  color: #272a31;
+}
+
+.preference-button {
+  margin-top: 2em;
+}
+
+.submit-preference {
+  background-color: #ec5242;
+  border: none;
+  color: #fff;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 3px;
+  padding: 1rem 3rem;
+}
+
 /* footer */
 
 .footer-container {
