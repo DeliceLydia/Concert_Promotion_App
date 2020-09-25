@@ -6,7 +6,11 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  color: #fff;
+  color: #272a31;
+}
+
+.main-container {
+  margin-bottom: 2em;
 }
 
 a {
@@ -19,6 +23,10 @@ a:hover {
 
 li {
   list-style: none;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* navbar */
@@ -65,12 +73,10 @@ label {
   width: 80%;
   height: auto;
   padding: 15px;
-  margin: 6em auto 3em auto;
+  margin: 4em auto 3em auto;
 }
 
-.about-title,
-.ticket-title {
-  text-align: center;
+.about-title{
   font-size: 26px;
   text-transform: uppercase;
 }
@@ -79,7 +85,6 @@ label {
   text-align: left;
   width: 90%;
   margin: auto;
-  color: #272a31;
   font-size: 18px;
 }
 
@@ -91,56 +96,67 @@ label {
 }
 
 .help {
-  text-align: center;
   margin-top: 12px;
+  text-align: center;
 }
 
 /* tickets */
 
-.ticket-container {
-  background-color: #272a31;
-  width: 90%;
-  margin: 4em auto;
+.ticket-head {
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 0;
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;;
 }
 
-.ticket-form {
-  width: 80%;
-  height: auto;
-  padding: 15px;
-}
-
-.form-input {
-  margin: 0 auto 1.25rem auto;
-  padding: 0.25rem;
-  display: flex;
-  justify-content: center;
-}
-
-label {
-  font-size: 1.125rem;
-  margin-bottom: 0.5rem;
-  margin-left: 30px;
-}
-
-.form-control {
+.ticket-head::after {
+  content: "";
   display: block;
-  width: 90%;
-  height: 2rem;
-  color: #495057;
-  background-color: #e3e3e3;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-  margin-left: 15px;
+  background-color: #ec5242;
+  width: 2.5em;
+  height: 0.2em;
+  margin: 18px auto;
 }
 
-.button {
-  width: 40%;
-  border-radius: 5px;
+.centered-par {
+  border: 1px solid #c4c4c4;
+  text-transform: capitalize;
+  border-radius: 1em;
+  padding: 0.5rem;
+  width: 90%;
+  margin: 15px auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid #dee2e6;
+}
+
+.color-thead {
+  background-color: #272a31;
+  color: #e3e3e3;
+}
+
+table td {
   padding: 0.75rem;
-  background-color: #ec5242;
-  font-size: inherit;
-  color: inherit;
-  border: none;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.red-color {
+  color: #ec5242;
+}
+
+.table1-container {
+  margin-top: 5em;
+}
+
+.table2-container {
+  margin-top: 3em;
 }
 
 /* footer */
@@ -261,9 +277,14 @@ label {
     padding-left: 80px;
   }
 
-  /* tickets */
-
-  .ticket-container {
+  .about-container {
     width: 50%;
   }
+
+  /* tickets */
+
+  .centered-par {
+    width: 40%;
+  }
+
 }

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/all.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Poller+One&amp;display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
   <title>Ticket</title>
 </head>
@@ -43,41 +44,110 @@
     </nav>
   </header>
   <main class="main-container">
+    <div class="table1-container">
     <div class="ticket-container">
-      <form action="ticket.html" class="ticket-form">
-        <div class="form-head">
-          <h2 class="ticket-title">Book Your Seat Earlier!</h2>
-        </div>
-        <div class="form-input">
-          <label for="name">Name</label>
-          <input type="text" name="name" class="form-control" id="name">
-        </div>
-        <div class="form-input">
-          <label for="email">Email</label>
-          <input type="email" name="email" class="form-control" id="email" required>
-        </div>
-        <div class="form-input">
-          <label for="type">Types</label>
-          <select name="types" id="type" class="form-control select">
-            <option value="vip">VIP</option>
-            <option value="student">Student</option>
-            <option value="couple">Couple</option>
-          </select>
-        </div>
-        <div class="form-input">
-          <label for="price">Price</label>
-          <select name="price" id="price" class="form-control select">
-            <option value="vip">1500$ VIP</option>
-            <option value="couple">1000$ Couple</option>
-            <option value="student">800$ Student</option>
-          </select>
-        </div>
-        <button class="form-input button" type="submit" name="submit">
-          Get Your Ticket
-        </button>
-      </form>
-
+     <h1 class="ticket-head text-center">Select Your Ticket</h1>
+     <p class="centered-par text-center">Please select a Concert you want to attend according to your availability.</p>
     </div>
+    <table class="ticket-table text-center">
+      <thead class="color-thead text-center ">
+        <tr>
+          <td class="red-color">Ticket</td>
+          <td>Girl On Fire</td>
+          <td>We are Born</td>
+          <td>Sambolera</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="red-color">VIP</td>
+          <td>5000$</td>
+          <td>3000$</td>
+          <td>3500$</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td class="red-color">Student</td>
+          <td>3000$</td>
+          <td>2000$</td>
+          <td>2800$</td>
+        </tr>
+      </tbody>
+        <tr>
+          <td class="red-color">Couple</td>
+          <td>4000$</td>
+          <td>2500$</td>
+          <td>3000$</td>
+        </tr>
+      </tbody>
+    </div>
+    </table>
+    <div class="table2-container">
+      <div class="ticket-container">
+       <h1 class="ticket-head text-center">Select Your Seat</h1>
+       <p class="centered-par text-center">Please select your Prefered Seat according to your health condition</p>
+      </div>
+      <table class="ticket-table text-center">
+        <thead class="color-thead text-center ">
+          <tr>
+            <td class="red-color">Seats</td>
+            <td colspan="3">Preference</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="red-color">VIP</td>
+            <td>
+              <input type="radio" id="menu-1" name="menu">
+              <label for="menu-1">1st Class</label>
+            </td>
+            <td>
+              <input type="radio" id="menu-1" name="menu">
+              <label for="menu-1">2nd Class</label>
+            </td>
+            <td>
+              <input type="radio" id="menu-1" name="menu">
+              <label for="menu-1">3rd Class</label>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="red-color">Student</td>
+            <td>
+              <input type="radio" id="menu-1" name="menu">
+              <label for="menu-1">1st Class</label>
+            </td>
+            <td>
+              <input type="radio" id="menu-1" name="menu">
+              <label for="menu-1">2nd Class</label>
+            </td>
+            <td>
+              <input type="radio" id="menu-1" name="menu">
+              <label for="menu-1">3rd Class</label>
+            </td>
+          </tr>
+        </tbody>
+          <tr>
+            <td class="red-color">Couple</td>
+            <td>
+              <input type="radio" id="menu-1" name="menu">
+              <label for="menu-1">1st Class</label>
+            </td>
+            <td>
+              <input type="radio" id="menu-1" name="menu">
+              <label for="menu-1">2nd Class</label>
+            </td>
+            <td>
+              <input type="radio" id="menu-1" name="menu">
+              <label for="menu-1">3rd class</label>
+            </td>
+          </tr>
+        </tbody>
+      </div>
+      </table>
+    </main>
     <footer class="footer-container">
       <div class="links">
         <div class="footer-links-one">
@@ -109,9 +179,6 @@
         <p class="red-heading">&copy; 2020 Concerts Promotion</p>
       </div>
     </footer>
-
-  </main>
-
 </body>
 
 </html>
