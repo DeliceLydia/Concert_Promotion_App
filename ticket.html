@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
   <title>Ticket</title>
 </head>
+
 <body>
   <header>
     <nav class="top-nav">
@@ -34,12 +36,82 @@
         <ul class="lists-ul color flex">
           <li class="first-li"><a href="about.html">About</a></li>
           <li><a href="index.html">Home</a></li>
-          <li><a href="ticket.html">Ticket</a></li>
+          <li><a href="ticket.html">Get your Ticket</a></li>
           <li class="first-li orange-border"><a href="#">Advertise</a></li>
         </ul>
       </div>
     </nav>
   </header>
-  
+  <main class="main-container">
+    <div class="ticket-container">
+      <form action="ticket.html" class="ticket-form">
+        <div class="form-head">
+          <h2 class="ticket-title">Book Your Seat Earlier!</h2>
+        </div>
+        <div class="form-input">
+          <label for="name">Name</label>
+          <input type="text" name="name" class="form-control" id="name">
+        </div>
+        <div class="form-input">
+          <label for="email">Email</label>
+          <input type="email" name="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-input">
+          <label for="type">Types</label>
+          <select name="types" id="type" class="form-control select">
+            <option value="vip">VIP</option>
+            <option value="student">Student</option>
+            <option value="couple">Couple</option>
+          </select>
+        </div>
+        <div class="form-input">
+          <label for="price">Price</label>
+          <select name="price" id="price" class="form-control select">
+            <option value="vip">1500$ VIP</option>
+            <option value="couple">1000$ Couple</option>
+            <option value="student">800$ Student</option>
+          </select>
+        </div>
+        <button class="form-input button" type="submit" name="submit">
+          Get Your Ticket
+        </button>
+      </form>
+
+    </div>
+    <footer class="footer-container">
+      <div class="links">
+        <div class="footer-links-one">
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Get The App</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-one">
+          <ul>
+            <li><a href="about.html">Trending News</a></li>
+            <li><a href="#">Upcoming Concerts</a></li>
+            <li><a href="#">Featured Artists</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-2nd">
+          <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy & Policy</a></li>
+            <li><a href="#">Helps & Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-logo">
+        <div>
+          <a href="index.html"><img src="./images/logo.PNG" alt="logo"></a>
+        </div>
+        <p class="red-heading">&copy; 2020 Concerts Promotion</p>
+      </div>
+    </footer>
+
+  </main>
+
 </body>
+
 </html>
