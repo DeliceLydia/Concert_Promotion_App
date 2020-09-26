@@ -214,8 +214,8 @@ li {
   background-color: #272a31;
   height: auto;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin-top: 13px;
 }
 
@@ -226,15 +226,22 @@ li {
 
 .sponsors-list li {
   padding-top: 7px;
-  font-size: large;
 }
 
 .sponsors-list li a {
   color: #fff;
+  font-size: xx-large;
 }
 
 .bottom-head {
   margin-left: 40px;
+  color: #d3d3d3;
+}
+
+/* footer */
+
+.footer-container {
+  padding-top: 20px;
 }
 
 .links {
