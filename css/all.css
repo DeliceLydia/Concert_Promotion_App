@@ -76,7 +76,7 @@ label {
   margin: 4em auto 3em auto;
 }
 
-.about-title{
+.about-title {
   font-size: 26px;
   text-transform: uppercase;
 }
@@ -168,7 +168,7 @@ label {
   font-weight: 600;
   line-height: 1.3em;
   margin: 0;
-  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;;
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
 }
 
 .ticket-head::after {
@@ -378,7 +378,6 @@ td label {
   .centered-par {
     width: 40%;
   }
-
 }
 
 @media all and (min-width: 1024px) {

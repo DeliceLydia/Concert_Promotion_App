@@ -58,8 +58,8 @@ li {
   width: 50px;
 }
 
-.lists-ul li {
-  display: none;
+.lists-ul li a {
+  color: #ec5242;
 }
 
 .main-contents {
@@ -70,7 +70,7 @@ li {
   text-align: center;
   font-size: 20px;
   line-height: 1.2;
-  color: #272a31;;
+  color: #272a31;
   font-weight: 800;
 }
 
@@ -162,7 +162,7 @@ li {
 .bottom {
   padding-bottom: 20px;
   text-decoration: underline #ec5242;
-} 
+}
 
 /* trending section  */
 
@@ -196,7 +196,7 @@ li {
   line-height: 1.3em;
   text-align: center;
   margin: 0;
-  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;;
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
 }
 
 .ticket-head::after {
@@ -362,7 +362,7 @@ li {
   .lists-ul li a {
     color: #272a31;
   }
-  
+
   .lists-ul .first-li a {
     color: #ec5242;
   }
@@ -416,7 +416,7 @@ li {
   }
 
   .color {
-    color: #272a31;;
+    color: #272a31;
   }
 
   .strong {
