@@ -126,13 +126,39 @@ label {
   padding: 10px;
 }
 
-.img {
+.last-concerts-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img1 {
+  background: linear-gradient(rgb(236, 82, 66, 0.7), rgb(236, 82, 66, 0.7)), url(../images/last-one.jpg);
   margin-top: 1em;
 }
 
-.img img {
-  width: 100%;
-  height: 40vh;
+.img2 {
+  background: linear-gradient(rgb(236, 82, 66, 0.7), rgb(236, 82, 66, 0.7)), url(../images/img-two.jpg);
+  margin-top: 1em;
+}
+
+.common-back {
+  background-repeat: no-repeat;
+  height: 12em;
+  width: 20em;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.common-back .last-head {
+  padding-top: 3rem;
+  font-size: 1.8em;
+}
+
+.last-p {
+  font-size: 1.4em;
 }
 
 /* tickets */
@@ -339,13 +365,12 @@ td label {
   }
 
   .last-concerts-img {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
   }
 
-  .img {
-    margin: 15px auto;
+  .common-back {
+    margin-right: 20px;
   }
 
   /* tickets */
