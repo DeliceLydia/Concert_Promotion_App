@@ -42,7 +42,7 @@ li {
 .bar {
   float: right;
   padding-top: 14px;
-  padding-right: 30px;
+  margin-left: 20px;
 }
 
 .bar a {
@@ -50,9 +50,7 @@ li {
 }
 
 .nav-logo {
-  float: left;
-  padding-top: 14px;
-  padding-left: 30px;
+  display: none;
 }
 
 .nav-logo img {
@@ -72,7 +70,7 @@ li {
   text-align: center;
   font-size: 20px;
   line-height: 1.2;
-  color: #272a31;
+  color: #272a31;;
   font-weight: 800;
 }
 
@@ -81,17 +79,16 @@ li {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: -90px;
+  margin: 40px auto -90px auto;
 }
 
 .input-search {
-  width: 200px;
+  width: 300px;
 }
 
 #search {
   width: 95%;
-  height: 35px;
+  height: 45px;
   font-size: 18px;
   padding: 10px;
   background: #fff;
@@ -100,12 +97,8 @@ li {
   border-radius: 0;
 }
 
-.search-button {
-  width: 80px;
-}
-
 .search-button button {
-  height: 56px;
+  height: 45px;
   padding: 8px;
   width: 100%;
   font-size: 18px;
@@ -115,7 +108,7 @@ li {
   justify-content: center;
   background: #ec5242;
   color: #fff;
-  margin: 0;
+  margin-left: -13px;
   border: 0;
 }
 
@@ -134,9 +127,17 @@ li {
 
 .flex-container {
   width: 85%;
-  margin: auto;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
+}
+
+.big-heading {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  padding-top: 20px;
 }
 
 .flex-article {
@@ -145,52 +146,66 @@ li {
   background-color: rgba(87, 83, 83, 0.418);
   margin: 0.3em;
   text-align: center;
+  padding-top: 10px;
+}
+
+.red-heading {
+  color: #ec5242;
+  font-size: 1.1em;
 }
 
 .flex-article p {
   font-size: 0.9em;
+  color: #d3d3d3;
 }
 
 .bottom {
   padding-bottom: 20px;
   text-decoration: underline #ec5242;
-}
+} 
 
 /* trending section  */
 
-.trending {
-  margin-top: -4px;
+.cus-artist-bg-img {
+  width: 140px;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.trending-concert {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.cus-artist-img-1 {
+  background-image: url(../images/alicia.jpg);
 }
 
-.big-heading {
-  color: #fff;
+.cus-artist-img-2 {
+  background-image: url(../images/Kadjanin.jpg);
+}
+
+.cus-artist-img-3 {
+  background-image: url(../images/enrique.jpg);
+}
+
+.cus-artist-img-4 {
+  background-image: url(../images/Simi.jpg);
+}
+
+.ticket-head {
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.3em;
   text-align: center;
-  font-size: 20px;
-  font-weight: 800;
-  padding-top: 9px;
+  margin: 0;
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;;
 }
 
-.artist img {
-  width: 100%;
-  height: 250px;
-  margin-top: 13px;
-}
-
-.artist-name {
-  text-align: right;
-  margin-right: 30px;
-  margin-top: 4px;
-  color: #272a31;
-}
-
-label {
-  color: #ec5242;
+.ticket-head::after {
+  content: "";
+  display: block;
+  background-color: #ec5242;
+  width: 2.5em;
+  height: 0.2em;
+  margin: 18px auto;
 }
 
 /* sponsors */
@@ -306,13 +321,11 @@ label {
     height: 45px;
   }
 
-  .search-button {
-    width: 120px;
-  }
-
   .search-button button {
-    height: 66px;
+    height: 45px;
     padding: 8px;
+    width: 120px;
+    margin-left: -20px;
   }
 
   .flex {
@@ -322,7 +335,7 @@ label {
 
   .nav-logo {
     margin-left: 100px;
-    margin-top: -8px;
+    margin-top: -25px;
   }
 
   .nav-logo img {
@@ -331,7 +344,7 @@ label {
   }
 
   .lists-ul {
-    margin-right: 150px;
+    margin-right: 100px;
   }
 
   .lists-ul li {
@@ -342,16 +355,16 @@ label {
   .lists-ul li a {
     color: #272a31;
   }
-
+  
   .lists-ul .first-li a {
     color: #ec5242;
   }
 
   .lists-ul .orange-border {
     border: 4px solid #ec5242;
-    padding: 10px;
+    padding: 5px 10px;
     margin-left: 20px;
-    margin-top: -10px;
+    margin-top: -2px;
   }
 
   .all-contents {
@@ -370,11 +383,6 @@ label {
 
   .flex-article {
     height: 14em;
-  }
-
-  .red-heading {
-    color: #ec5242;
-    font-size: 1.1em;
   }
 
   .flex-article p {
@@ -401,7 +409,7 @@ label {
   }
 
   .color {
-    color: #ec5242;
+    color: #272a31;;
   }
 
   .strong {
