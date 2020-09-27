@@ -42,7 +42,7 @@ We should follow the guidelines of the given design, including:
 
 By Cindy Shin in Behance
 
-# Demo Video
+## Demo Video
 [Loom Video Link]()
 
 ## Show your support
