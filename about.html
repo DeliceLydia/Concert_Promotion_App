@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/all.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
   <title>About Us</title>
 </head>
@@ -23,21 +25,28 @@
         </ul>
       </div>
     </nav>
-    <nav class="navbar flex">
-      <div class="top-flex">
-        <div class="bar">
-          <a href="#"><i class="fas fa-bars fa-2x"></i></a>
-        </div>
-        <div class="nav-logo">
-          <a href="index.html"><img src="./images/logo.PNG" alt="logo"></a>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light flex">
+      <div class="nav-logo">
+        <img src="./images/logo.PNG" alt="logo">
       </div>
-      <div class="nav-list">
-        <ul class="lists-ul color flex">
-          <li class="first-li"><a href="about.html">About</a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="ticket.html">Get your Ticket</a></li>
-          <li class="first-li orange-border"><a href="#">Advertise</a></li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav-list" id="navbarNav">
+        <ul class="navbar-nav lists-ul">
+          <li class="first-li">
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="ticket.html">Get your ticket</a>
+          </li>
+          <li>
+            <a class="orange-border" href="#">Advertise</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -114,6 +123,17 @@
       <p class="red-heading">&copy; 2020 Concerts Promotion</p>
     </div>
   </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

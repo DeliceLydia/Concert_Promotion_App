@@ -27,7 +27,7 @@ li {
 
 /* navbar */
 
-.top-nav {
+.first-nav {
   display: none;
 }
 
@@ -37,16 +37,6 @@ li {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-}
-
-.bar {
-  float: right;
-  padding-top: 14px;
-  margin-left: 20px;
-}
-
-.bar a {
-  color: #ec5242;
 }
 
 .nav-logo {
@@ -271,17 +261,17 @@ li {
 }
 
 @media all and (min-width: 768px) {
-  .bar {
-    display: none;
+  .first-nav {
+    display: block;
   }
 
-  .nav-logo,
-  .lists-ul li {
+  .nav-logo {
     display: block;
+    margin-left: 100px;
+    margin-top: 5px;
   }
 
   .top-nav {
-    display: block;
     background-color: #272a31;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -335,14 +325,9 @@ li {
     margin-left: -20px;
   }
 
-  .flex {
+  .nav-list {
     display: flex;
-    justify-content: space-between;
-  }
-
-  .nav-logo {
-    margin-left: 100px;
-    margin-top: -25px;
+    justify-content: flex-end;
   }
 
   .nav-logo img {
@@ -351,12 +336,12 @@ li {
   }
 
   .lists-ul {
-    margin-right: 100px;
+    margin-right: 150px;
   }
 
   .lists-ul li {
     font-size: 18px;
-    padding-left: 30px;
+    padding-left: 20px;
   }
 
   .lists-ul li a {
@@ -365,13 +350,6 @@ li {
 
   .lists-ul .first-li a {
     color: #ec5242;
-  }
-
-  .lists-ul .orange-border {
-    border: 4px solid #ec5242;
-    padding: 5px 10px;
-    margin-left: 20px;
-    margin-top: -2px;
   }
 
   .all-contents {
