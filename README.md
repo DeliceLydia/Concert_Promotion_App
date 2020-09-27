@@ -3,7 +3,9 @@
 This project consists of a HTML & CSS Capstone Project, based on an online website for a conference. It's a real-world-like project, built with business specifications.
 
 ![screenshot](./images/shot.PNG)
+
 ![screenshot](./images/ticket.PNG)
+
 ![screenshot](./images/about.PNG)
 ​
 ## Project Requirements
