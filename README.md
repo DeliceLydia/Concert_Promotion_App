@@ -43,6 +43,7 @@ We should follow the guidelines of the given design, including:
 ## Design Idea
 
 By Cindy Shin in Behance
+[Design Link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## Demo Video
 [Loom Video Link](https://www.loom.com/share/8566ac521d8e4541b34bc08c3ee03940)
