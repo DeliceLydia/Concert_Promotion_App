@@ -54,11 +54,13 @@ li {
 }
 
 .main-contents {
-  padding-top: 100px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .big-size {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   line-height: 1.2;
   color: #ec5242;
@@ -308,12 +310,13 @@ li {
   }
 
   .main-contents {
-    background-image: none;
+    width: 60%;
     padding-top: 50px;
     margin-bottom: 50px;
   }
 
   .big-size {
+    margin-left: 75px;
     font-size: 40px;
     font-family: 'cocogoose', Arial, sans-serif;
   }
