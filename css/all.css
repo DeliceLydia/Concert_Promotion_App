@@ -51,6 +51,7 @@ label {
 
 .nav-logo {
   display: none;
+  object-fit: contain;
   float: left;
   padding-top: 14px;
   padding-left: 30px;
@@ -165,7 +166,7 @@ label {
   font-weight: 600;
   line-height: 1.3em;
   margin: 0;
-  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
+  text-align: center;
 }
 
 .ticket-head::after {
@@ -235,11 +236,37 @@ td label {
   padding: 1rem 3rem;
 }
 
-/* footer */
+/* sponsors */
 
-.footer-container {
-  border-top: 2px solid rgb(211, 211, 211, 0.8);
+.sponsors {
+  background-color: #272a31;
+  height: auto;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 13px;
 }
+
+.sponsors-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sponsors-list li {
+  padding-top: 7px;
+}
+
+.sponsors-list li a {
+  color: #fff;
+  font-size: xx-large;
+}
+
+.bottom-head {
+  margin-left: 40px;
+  color: #d3d3d3;
+}
+
+/* footer */
 
 .links {
   display: flex;
@@ -256,14 +283,14 @@ td label {
 
 .footer-logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-left: 4rem;
   margin-right: 4rem;
   margin-bottom: 16px;
 }
 
 .footer-logo img {
-  height: 50px;
+  height: 40px;
   width: 60px;
 }
 
@@ -274,7 +301,9 @@ td label {
 
 @media all and (min-width: 768px) {
   .first-nav {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
   }
 
   .nav-list {
@@ -314,6 +343,16 @@ td label {
   .nav-logo img {
     height: 40px;
     width: 50px;
+  }
+
+  .sponsors-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sponsors-list li {
+    padding-right: 20px;
+    font-size: 26px;
   }
 
   .lists-ul {

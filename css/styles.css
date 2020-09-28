@@ -41,6 +41,7 @@ li {
 
 .nav-logo {
   display: none;
+  object-fit: contain;
 }
 
 .nav-logo img {
@@ -60,7 +61,7 @@ li {
   text-align: center;
   font-size: 20px;
   line-height: 1.2;
-  color: #272a31;
+  color: #ec5242;
   font-weight: 800;
 }
 
@@ -180,13 +181,16 @@ li {
   background-image: url(../images/Simi.jpg);
 }
 
+.f-left {
+  float: left;
+}
+
 .ticket-head {
-  font-size: 1.3em;
-  font-weight: 600;
-  line-height: 1.3em;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.2em;
   text-align: center;
   margin: 0;
-  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
 }
 
 .ticket-head::after {
@@ -196,6 +200,15 @@ li {
   width: 2.5em;
   height: 0.2em;
   margin: 18px auto;
+}
+
+.media-head {
+  font-size: 1.3em;
+  margin-top: -4px;
+}
+
+.par {
+  text-align: left;
 }
 
 /* sponsors */
@@ -210,8 +223,8 @@ li {
 }
 
 .sponsors-list {
-  text-align: center;
-  margin-top: -17px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .sponsors-list li {
@@ -249,20 +262,21 @@ li {
 
 .footer-logo {
   display: flex;
-  justify-content: space-between;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  justify-content: center;
   margin-bottom: 16px;
 }
 
 .footer-logo img {
-  height: 50px;
+  height: 40px;
   width: 60px;
+  margin-right: 10px;
 }
 
 @media all and (min-width: 768px) {
   .first-nav {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
   }
 
   .nav-logo {
@@ -287,7 +301,6 @@ li {
     display: inline;
     padding-right: 10px;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
   }
 
   .top-nav-ul li a {
@@ -301,8 +314,8 @@ li {
   }
 
   .big-size {
-    margin-left: 70px;
     font-size: 40px;
+    font-family: 'cocogoose', Arial, sans-serif;
   }
 
   .search-container {
@@ -400,6 +413,12 @@ li {
   .strong {
     font-style: italic;
     font-size: 26px;
+  }
+
+  .red {
+    font-size: 17px;
+    color: #ec5242;
+    font-family: 'cocogoose', Arial, sans-serif;
   }
 
   .sponsors-list {
