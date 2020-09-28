@@ -5,10 +5,6 @@ This project consists of a HTML & CSS Capstone Project, based on an online websi
 ![screenshot](./images/shot.PNG)
 
 ![screenshot](./images/featured.PNG)
-
-![screenshot](./images/ticket.PNG)
-
-![screenshot](./images/about.PNG)
 ​
 ## Project Requirements
 Required to work atleast on 3 pages:
