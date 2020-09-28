@@ -42,7 +42,7 @@ By Cindy Shin in Behance
 [Design Link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## Demo Video
-[Loom Video Link](https://www.loom.com/share/8566ac521d8e4541b34bc08c3ee03940)
+[Loom Video Link](https://www.loom.com/share/49fc7eb51d734ff6ab523de30f03eb93)
 
 ## Show your support
 ​
