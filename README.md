@@ -42,7 +42,7 @@ We should follow the guidelines of the given design, including:
 [Benhance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and Cindy Shin for the design
 
 ## Demo Video
-[Loom Video Link](https://www.loom.com/share/49fc7eb51d734ff6ab523de30f03eb93)
+[Loom Video Link](https://www.loom.com/share/5bc03955088042a7acc511a3e1256dab)
 
 ## Show your support
 ​
