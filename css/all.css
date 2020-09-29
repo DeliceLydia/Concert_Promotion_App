@@ -9,6 +9,11 @@ body {
   color: #272a31;
 }
 
+@font-face {
+  font-family: 'cocogoose';
+  src: url("https://www.dafont.com/cocogoose.font");
+}
+
 .main-container {
   margin-bottom: 2em;
 }

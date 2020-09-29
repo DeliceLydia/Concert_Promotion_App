@@ -13,6 +13,11 @@ body {
   height: auto;
 }
 
+@font-face {
+  font-family: 'cocogoose';
+  src: url("https://www.dafont.com/cocogoose.font");
+}
+
 a {
   text-decoration: none;
 }
@@ -54,18 +59,18 @@ li {
 }
 
 .main-contents {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .big-size {
   text-align: left;
-  font-size: 20px;
+  font-size: 2.5em;
   line-height: 1.2;
   color: #ec5242;
   font-weight: 800;
-  font-family: 'cocogoose', Arial, sans-serif;
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
 }
 
 .search-container {
@@ -120,7 +125,7 @@ li {
 }
 
 .flex-container {
-  width: 85%;
+  width: 100%;
   margin: 20px auto;
   display: flex;
   flex-direction: column;
@@ -134,9 +139,14 @@ li {
   padding-top: 20px;
 }
 
+.icon-img {
+  color: #d3d3d3;
+  font-size: 2.7em;
+}
+
 .flex-article {
-  width: 100%;
-  height: 10em;
+  width: 95%;
+  height: auto;
   background-color: rgba(87, 83, 83, 0.418);
   margin: 0.3em;
   text-align: center;
@@ -145,18 +155,18 @@ li {
 
 .red-heading {
   color: #ec5242;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 .flex-article p {
   font-size: 0.9em;
   color: #d3d3d3;
+  text-transform: capitalize;
 }
 
-.bottom {
-  padding-bottom: 20px;
-  text-decoration: underline #ec5242;
-}
+/* .bottom {
+  text-decoration: underline #d3d3d3;
+} */
 
 /* trending section  */
 
@@ -382,14 +392,6 @@ li {
     justify-content: space-around;
   }
 
-  .flex-article {
-    height: 14em;
-  }
-
-  .flex-article p {
-    font-size: 0.9em;
-  }
-
   .bottom {
     padding-bottom: 20px;
     text-decoration: underline #ec5242;
@@ -419,9 +421,8 @@ li {
   }
 
   .red {
-    font-size: 17px;
+    font-size: 0.9em;
     color: #ec5242;
-    font-family: 'cocogoose', Arial, sans-serif;
   }
 
   .sponsors-list {
