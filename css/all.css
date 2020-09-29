@@ -380,15 +380,6 @@ td label {
     color: #ec5242;
   }
 
-  .links {
-    display: flex;
-    justify-content: center;
-  }
-
-  .links ul li {
-    padding-left: 80px;
-  }
-
   .about-container {
     width: 50%;
   }
@@ -406,14 +397,17 @@ td label {
     margin-right: 20px;
   }
 
-   /* footer */
+  /* footer */
 
-   .footer-container {
+  .footer-container {
     justify-content: center;
   }
 
-  .footer-links {
+  .flex {
     display: flex;
+  }
+
+  .footer-links {
     flex-direction: column;
   }
 
@@ -423,12 +417,9 @@ td label {
     margin-left: -50px;
   }
 
-  .links li {
-   margin-left: 10px;
-  }
-
   .top-footer {
     margin-top: -8px;
+    margin-left: 10px;
   }
 
   /* tickets */

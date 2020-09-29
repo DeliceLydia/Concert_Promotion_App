@@ -22,6 +22,19 @@ a {
   text-decoration: none;
 }
 
+.lists-ul li a {
+  color: #ec5242;
+}
+
+.sponsors-list li a {
+  color: #fff;
+  font-size: xx-large;
+}
+
+.links li a {
+  color: #272a31;
+}
+
 ul li a:hover {
   text-decoration: underline #ec5242;
 }
@@ -56,10 +69,6 @@ li {
 .nav-logo img {
   height: 35px;
   width: 50px;
-}
-
-.lists-ul li a {
-  color: #ec5242;
 }
 
 .main-contents {
@@ -243,11 +252,6 @@ li {
   padding-top: 7px;
 }
 
-.sponsors-list li a {
-  color: #fff;
-  font-size: xx-large;
-}
-
 .bottom-head {
   margin-left: 40px;
   color: #d3d3d3;
@@ -278,10 +282,6 @@ li {
 
 .links ul li {
   font-size: 18px;
-}
-
-.links li a {
-  color: #272a31;
 }
 
 .footer-links .top {
@@ -457,7 +457,7 @@ li {
   }
 
   .links li {
-   margin-left: 10px;
+    margin-left: 10px;
   }
 
   .top-footer {
