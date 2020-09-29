@@ -280,6 +280,12 @@ td label {
   border-top: 2px solid #dee2e6;
 }
 
+.footer-down {
+  background-color: #272a31;
+  margin-top: 50px;
+  height: auto;
+}
+
 .footer-logo {
   margin-top: 5px;
 }
@@ -301,6 +307,15 @@ td label {
 
 .links li a {
   color: #272a31;
+}
+
+.footer-down .links li a,
+.footer-text {
+  color: #d3d3d3;
+}
+
+.footer-text {
+  text-align: center;
 }
 
 .footer-links .top {
@@ -403,10 +418,6 @@ td label {
     justify-content: center;
   }
 
-  .flex {
-    display: flex;
-  }
-
   .footer-links {
     flex-direction: column;
   }
@@ -420,6 +431,10 @@ td label {
   .top-footer {
     margin-top: -8px;
     margin-left: 10px;
+  }
+
+  .links li {
+    margin-left: 15px;
   }
 
   /* tickets */
