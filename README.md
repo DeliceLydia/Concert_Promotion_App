@@ -27,6 +27,7 @@ We should follow the guidelines of the given design, including:
 
 - HTML
 - CSS
+- Bootstrap
 ​
 ## Live Demo
 [Live Demo Link](https://delicelydia.github.io/Capstone-Project/.)
