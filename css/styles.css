@@ -30,6 +30,10 @@ li {
   list-style: none;
 }
 
+.font-family {
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
+}
+
 /* navbar */
 
 .first-nav {
@@ -70,7 +74,6 @@ li {
   line-height: 1.2;
   color: #ec5242;
   font-weight: 800;
-  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
 }
 
 .search-container {
@@ -163,10 +166,6 @@ li {
   color: #d3d3d3;
   text-transform: capitalize;
 }
-
-/* .bottom {
-  text-decoration: underline #d3d3d3;
-} */
 
 /* trending section  */
 
@@ -393,8 +392,8 @@ li {
   }
 
   .bottom {
-    padding-bottom: 20px;
-    text-decoration: underline #ec5242;
+    padding-bottom: 3em;
+    text-decoration: underline #d3d3d3;
   }
 
   .trending-concert {
