@@ -36,10 +36,9 @@ We should follow the guidelines of the given design, including:
 - Twitter: [@IngabireLydia3](https://twitter.com/IngabireLydia)
 - Linkedin: [Delice Lydia](https://www.linkedin.com/in/delice-lydia-91b55b167/)
 
-## Design Idea
-
-By Cindy Shin in Behance
-[Design Link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+## Acknowledgments
+- Huge Thanks to 
+[Benhance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and Cindy Shin for the design
 
 ## Demo Video
 [Loom Video Link](https://www.loom.com/share/49fc7eb51d734ff6ab523de30f03eb93)
