@@ -273,35 +273,38 @@ td label {
 
 /* footer */
 
-.links {
+.footer-container {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
+  border-top: 2px solid #dee2e6;
+}
+
+.footer-logo {
+  margin-top: 5px;
+}
+
+.footer-logo img {
+  height: 70px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.footer-links {
+  display: flex;
+  margin-right: 30px;
 }
 
 .links ul li {
   font-size: 18px;
 }
 
-.links ul li a {
+.links li a {
   color: #272a31;
 }
 
-.footer-logo {
-  display: flex;
-  justify-content: center;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-bottom: 16px;
-}
-
-.footer-logo img {
-  height: 40px;
-  width: 60px;
-}
-
-.red-heading {
-  color: #ec5242;
-  font-size: 1.1em;
+.footer-links .top {
+  margin-top: -18px;
 }
 
 @media all and (min-width: 768px) {
@@ -401,6 +404,31 @@ td label {
 
   .common-back {
     margin-right: 20px;
+  }
+
+   /* footer */
+
+   .footer-container {
+    justify-content: center;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-links .links {
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+  }
+
+  .links li {
+   margin-left: 10px;
+  }
+
+  .top-footer {
+    margin-top: -8px;
   }
 
   /* tickets */
