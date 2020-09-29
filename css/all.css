@@ -1,0 +1,457 @@
+body {
+  background-image: url("https://cdn.cp.adobe.io/content/2/dcx/27ca247e-a832-4873-b3a1-4fe283d01e2a/rendition/preview.jpg/version/1/format/jpg/dimension/width/size/1200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url(../Font/Cocogoose\ Pro-trial.ttf);
+}
+
+.font-family {
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
+}
+
+.main-container {
+  margin-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lists-ul li a {
+  color: #ec5242;
+}
+
+.sponsors-list li a {
+  color: #fff;
+  font-size: xx-large;
+}
+
+.links li a {
+  color: #272a31;
+}
+
+ul li a:hover {
+  text-decoration: underline #ec5242;
+}
+
+li {
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* navbar */
+
+.first-nav {
+  display: none;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-title,
+.about-2nd-title,
+label {
+  color: #ec5242;
+}
+
+.nav-logo {
+  display: none;
+  object-fit: contain;
+  float: left;
+  padding-top: 14px;
+  padding-left: 30px;
+}
+
+.nav-logo img {
+  height: 35px;
+  width: 50px;
+}
+
+.about-container {
+  background-color: #d3d3d3;
+  width: 80%;
+  height: auto;
+  padding: 15px;
+  margin: 4em auto 3em auto;
+}
+
+.about-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+
+.about-info {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-size: 18px;
+  margin-top: 1em;
+}
+
+.about-2nd-title {
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.help {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.logo-container {
+  margin-top: 5em;
+  border-top: 1px solid #c4c4c4;
+}
+
+.logo-design {
+  width: 60%;
+  margin: 30px auto 15px auto;
+}
+
+.logo-down {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.last-concerts {
+  margin-top: 30px;
+}
+
+.logo-down img {
+  width: 100%;
+  height: 30vh;
+  border: 1px solid #c4c4c4;
+  padding: 10px;
+}
+
+.last-concerts-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img1 {
+  background: linear-gradient(rgb(236, 82, 66, 0.7), rgb(236, 82, 66, 0.7)), url(../images/last-one.jpg);
+  margin-top: 1em;
+}
+
+.img2 {
+  background: linear-gradient(rgb(236, 82, 66, 0.7), rgb(236, 82, 66, 0.7)), url(../images/img-two.jpg);
+  margin-top: 1em;
+}
+
+.common-back {
+  background-repeat: no-repeat;
+  height: 12em;
+  width: 20em;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.common-back .last-head {
+  padding-top: 3rem;
+  font-size: 1.8em;
+}
+
+.last-p {
+  font-size: 1.4em;
+}
+
+/* tickets */
+
+.ticket-head {
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 0;
+  text-align: center;
+}
+
+.ticket-head::after {
+  content: "";
+  display: block;
+  background-color: #ec5242;
+  width: 2.5em;
+  height: 0.2em;
+  margin: 18px auto;
+}
+
+.centered-par {
+  border: 1px solid #c4c4c4;
+  text-transform: capitalize;
+  border-radius: 1em;
+  padding: 0.5rem;
+  width: 90%;
+  margin: 15px auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid #dee2e6;
+}
+
+.color-thead {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
+
+table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.red-color {
+  color: #ec5242;
+}
+
+.table1-container {
+  margin-top: 5em;
+}
+
+.table2-container {
+  margin-top: 3em;
+}
+
+td label {
+  color: #272a31;
+}
+
+.preference-button {
+  margin-top: 2em;
+}
+
+.submit-preference {
+  background-color: #ec5242;
+  border: none;
+  color: #fff;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 3px;
+  padding: 1rem 3rem;
+}
+
+/* sponsors */
+
+.sponsors {
+  background-color: #272a31;
+  height: auto;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 13px;
+}
+
+.sponsors-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sponsors-list li {
+  padding-top: 7px;
+}
+
+.bottom-head {
+  margin-left: 40px;
+  color: #d3d3d3;
+}
+
+/* footer */
+
+.footer-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid #dee2e6;
+}
+
+.footer-down {
+  background-color: #272a31;
+  margin-top: 50px;
+  height: auto;
+}
+
+.footer-logo {
+  margin-top: 5px;
+}
+
+.footer-logo img {
+  height: 70px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.footer-links {
+  display: flex;
+  margin-right: 30px;
+}
+
+.links ul li {
+  font-size: 18px;
+}
+
+.footer-down .links li a,
+.footer-text {
+  color: #d3d3d3;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.footer-links .top {
+  margin-top: -18px;
+}
+
+@media all and (min-width: 768px) {
+  .first-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .top-nav {
+    background-color: #272a31;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100%;
+  }
+
+  .top-nav-ul {
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .top-nav-ul li {
+    display: inline;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+
+  .top-nav-ul li a {
+    color: #fff;
+  }
+
+  .nav-logo {
+    display: block;
+    margin-left: 100px;
+    margin-top: -8px;
+  }
+
+  .nav-logo img {
+    height: 40px;
+    width: 50px;
+  }
+
+  .sponsors-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sponsors-list li {
+    padding-right: 20px;
+    font-size: 26px;
+  }
+
+  .lists-ul {
+    margin-right: 150px;
+  }
+
+  .lists-ul li {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  .lists-ul li a {
+    color: #272a31;
+  }
+
+  .lists-ul .first-li a {
+    color: #ec5242;
+  }
+
+  .about-container {
+    width: 50%;
+  }
+
+  .logo-down {
+    width: 30%;
+  }
+
+  .last-concerts-img {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .common-back {
+    margin-right: 20px;
+  }
+
+  /* footer */
+
+  .footer-container {
+    justify-content: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-links .links {
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+  }
+
+  .top-footer {
+    margin-top: -8px;
+    margin-left: 10px;
+  }
+
+  .links li {
+    margin-left: 15px;
+  }
+
+  /* tickets */
+
+  .centered-par {
+    width: 40%;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .img {
+    width: 500px;
+  }
+}
