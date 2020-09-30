@@ -10,8 +10,12 @@ body {
 }
 
 @font-face {
-  font-family: 'cocogoose';
-  src: url("https://www.dafont.com/cocogoose.font");
+  font-family: 'cocogooseregular';
+  src: url(../Font/Cocogoose\ Pro-trial.ttf);
+}
+
+.font-family {
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
 }
 
 .main-container {
@@ -22,7 +26,20 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.lists-ul li a {
+  color: #ec5242;
+}
+
+.sponsors-list li a {
+  color: #fff;
+  font-size: xx-large;
+}
+
+.links li a {
+  color: #272a31;
+}
+
+ul li a:hover {
   text-decoration: underline #ec5242;
 }
 
@@ -67,10 +84,6 @@ label {
   width: 50px;
 }
 
-.lists-ul li a {
-  color: #ec5242;
-}
-
 .about-container {
   background-color: #d3d3d3;
   width: 80%;
@@ -80,8 +93,9 @@ label {
 }
 
 .about-title {
-  font-size: 26px;
+  font-size: 25px;
   text-transform: uppercase;
+  margin-top: 16px;
 }
 
 .about-info {
@@ -89,6 +103,7 @@ label {
   width: 90%;
   margin: auto;
   font-size: 18px;
+  margin-top: 1em;
 }
 
 .about-2nd-title {
@@ -261,11 +276,6 @@ td label {
   padding-top: 7px;
 }
 
-.sponsors-list li a {
-  color: #fff;
-  font-size: xx-large;
-}
-
 .bottom-head {
   margin-left: 40px;
   color: #d3d3d3;
@@ -303,10 +313,6 @@ td label {
 
 .links ul li {
   font-size: 18px;
-}
-
-.links li a {
-  color: #272a31;
 }
 
 .footer-down .links li a,

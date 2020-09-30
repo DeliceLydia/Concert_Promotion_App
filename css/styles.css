@@ -14,8 +14,8 @@ body {
 }
 
 @font-face {
-  font-family: 'cocogoose';
-  src: url("https://www.dafont.com/cocogoose.font");
+  font-family: 'cocogooseregular';
+  src: url(../Font/Cocogoose\ Pro-trial.ttf);
 }
 
 a {
@@ -78,11 +78,11 @@ li {
 }
 
 .big-size {
-  text-align: left;
-  font-size: 2.5em;
+  text-align: center;
+  font-size: 2em;
   line-height: 1.2;
   color: #ec5242;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .search-container {
@@ -132,12 +132,12 @@ li {
 .upcoming {
   background-image: url(../images/black.jpg);
   height: auto;
-  width: 80%;
+  width: 100%;
   margin: 200px auto 0 auto;
 }
 
 .flex-container {
-  width: 100%;
+  width: 90%;
   margin: 20px auto;
   display: flex;
   flex-direction: column;
@@ -157,7 +157,7 @@ li {
 }
 
 .flex-article {
-  width: 95%;
+  width: 100%;
   height: auto;
   background-color: rgba(87, 83, 83, 0.418);
   margin: 0.3em;
@@ -228,8 +228,14 @@ li {
   margin-top: -4px;
 }
 
-.par {
-  text-align: left;
+.strong {
+  font-style: italic;
+  font-size: 26px;
+}
+
+.red {
+  font-size: 0.9em;
+  color: #ec5242;
 }
 
 /* sponsors */
@@ -412,20 +418,6 @@ li {
 
   .right-info {
     margin-right: 30px;
-  }
-
-  .color {
-    color: #272a31;
-  }
-
-  .strong {
-    font-style: italic;
-    font-size: 26px;
-  }
-
-  .red {
-    font-size: 0.9em;
-    color: #ec5242;
   }
 
   .sponsors-list {

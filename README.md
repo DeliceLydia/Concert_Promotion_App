@@ -39,7 +39,7 @@ We should follow the guidelines of the given design, including:
 
 ## Acknowledgments
 - Huge Thanks to 
-[Benhance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and Cindy Shin for the design
+[Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and Cindy Shin for the design
 
 ## Demo Video
 [Loom Video Link](https://www.loom.com/share/5bc03955088042a7acc511a3e1256dab)
