@@ -1,231 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Concert-promotion" />
+    <meta name="image" property="og:image" content="./images/shot.PNG" />
+    <meta name="author" content="Lydia Ingabire">
+    <meta property=”og:url”
+    content="https://delicelydia.github.io/Capstone-Project/index.html" >
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5b1eeceadd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Concert-Promotion</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
-  <title>Capstone-Project</title>
-</head>
-
-<body>
-  
-  <!-- header -->
-  <header>
-    <nav class="top-nav">
-      <div class="first-nav">
-        <ul class="top-nav-ul">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="#">My Page</a></li>
-          <li><a href="index.html">Log Out</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light flex">
-      <div class="nav-logo">
-        <img src="./images/logo.PNG" alt="logo">
-      </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse nav-list" id="navbarNav">
-        <ul class="navbar-nav lists-ul">
-          <li class="first-li">
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="ticket.html">Get your ticket</a>
-          </li>
-          <li>
-            <a href="#">Advertise</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <!-- main -->
-  <main class="main-container">
-    <div class="main-contents">
-      <h1 class="content-head big-size font-family">Welcome!<br> To One of The Best<br> Concerts Promotion Website!</h1>
-    </div>
-    <div class="search-container">
-      <div class="input-search">
-        <input type="text" name="search" id="search" placeholder="Search by Artist, Venue or Date">
-      </div>
-      <div class="search-button">
-        <button type="submit">SEARCH</button>
-      </div>
-    </div>
-    <section class="upcoming">
-      <h2 class="ticket-head big-heading font-family">Main Program</h2>
-      <div class="flex-container">
-        <article class="flex-article">
-          <div class="icon-img"><i class="fas fa-home"></i></div>
-          <h3 class="red-heading">Welcome</h3>
-          <p>We are glad to welcome everyone who want to work with us, our hands are always open. feel at home!</p>
-        </article>
-        <article class="flex-article">
-          <div class="icon-img"><i class="fas fa-globe-africa"></i></div>
-          <h3 class="red-heading">Connection</h3>
-          <p>Working with us will open many doors, you will get to meet our differents partners from around the world
-          </p>
-        </article>
-        <article class="flex-article">
-          <div class="icon-img"><i class="fas fa-user-friends"></i></div>
-          <h3 class="red-heading">Assistance</h3>
-          <p>We work with experts who promoted concerts for many years, choosing us is the best decision you can take
-          </p>
-        </article>
-        <article class="flex-article">
-          <div class="icon-img"><i class="fa fa-percent" aria-hidden="true"></i></div>
-          <h3 class="red-heading">Discount</h3>
-          <p>We make sure to give discount of 10% for our loyal clients who always choose to work with us.</p>
-        </article>
-        <article class="flex-article">
-          <div class="icon-img"><i class="fa fa-glass" aria-hidden="true"></i></div>
-          <h3 class="red-heading">Friendship</h3>
-          <p>If you choose to work with us you become our friends and family, we share everything. we love you!</p>
-        </article>
-      </div>
-      <a href="#">
-        <h2 class="big-heading bottom">See Past Concerts</h2>
-      </a>
-    </section>
-
-    <!-- trending-section -->
-    <div class="container-fluid mt-5 px-md-5 trending">
-      <h5 class="ticket-head color font-family">FEATURED ARTISTS</h5>
-      <div class="row mt-4 trending-concert">
-        <div class="col-md-6">
-          <div class="cus-artist-img-1 cus-artist-bg-img f-left mr-3"></div>
-          <div>
-            <h3 class="media-head">Alicia Keys</h3>
-            <h5 class="strong red">American singer-songwriter, pianist, and actress</h5>
-            <p>Alicia Keys was born in Hell's Kitchen, Manhattan, to Terria Joseph (née Teresa M. Augello), a paralegal
-              who was also an occasional actress, and Craig Cook, a flight attendant. Her father is African-American and
-              her mother, who is Caucasian, is of Italian and English/Irish/Scottish ancestry. Alicia began taking piano
-              lessons at age 7 at her mother's insistence. She proved to be such a prodigy that she was later accepted
-              into the prestigious Professional Performance
-              Arts School of Manhattan, where she majored in choir.
-              only her musical talent but also her grades proved to be so exceptional that she was allowed to
-              graduate, as valedictorian, at age 16. In 1998, she signed with Arista Records, and wrote, produced, and
-              recorded
-              her own albums.</p>
-          </div>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="top-nav">
+        <div class="first-nav">
+          <ul class="top-nav-ul">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="index.html">Log Out</a></li>
+          </ul>
         </div>
-        <div class="col-md-6 mt-3 mt-md-o">
-          <div class="cus-artist-bg-img cus-artist-img-2 f-left mr-3"></div>
-          <div>
-            <h3 class="media-head">Kadja Nin</h3>
-            <h5 class="strong red">Burundian singer-songwriter</h5>
-            <p>Khadja Nin was born in 1959 and raised in Burundi, a small African country squeezed in
-              between two
-              gigantic territories, the Democratic Republic of Congo and Tanzania. She grew up peacefully in a family of
-              eight children, where she made her first steps into music.
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light flex">
+        <div class="nav-logo">
+          <img src="./images/logo.PNG" alt="logo" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-list" id="navbarNav">
+          <ul class="navbar-nav lists-ul">
+            <li class="first-li">
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="ticket.html">Get your ticket</a>
+            </li>
+            <li>
+              <a href="#">Advertise</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-              “Music was always for fun“, she confesses, though she already wished to be Myriam Makeba. When she turned
-              16, she left her family and went to Congo to pursue her studies. At the age of 17, she met her future
-              husband and moved with him into the forest, where they ran some lodges for tourists in search of big
-              thrills. She also gave birth to her son and thought that for her music was definitely over.</p>
-          </div>
+    <!-- main -->
+    <main class="main-container">
+      <div class="main-contents">
+        <h1 class="content-head big-size font-family">
+          Welcome!<br />
+          To One of The Best<br />
+          Concerts Promotion Website!
+        </h1>
+      </div>
+      <div class="search-container">
+        <div class="input-search">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search by Artist, Venue or Date"
+          />
+        </div>
+        <div class="search-button">
+          <button type="submit">SEARCH</button>
         </div>
       </div>
-      <div class="row mt-4 display-sm-none">
-        <div class="col-md-6">
-          <div class="cus-artist-bg-img cus-artist-img-3 f-left  mr-3"></div>
-          <div>
-            <h3 class="media-head">Enrique Iglesias</h3>
-            <h5 class="strong red"> Spanish singer, songwriter, actor and record producer who is known as the King of
-              Latin Pop.</h5>
-            <p>Enrique Miguel Iglesias Preysler was born in Madrid, Spain, to Spanish singer Julio
-              Iglesias and
-              Spanish-Filipino socialite Isabel Preysler. In 1979, his parents' marriage was annulled. He was eight
-              years
-              old when he moved to the U.S., and at the age of 15, secretly began writing music. He studied business
-              administration at the University of Miami for a year before he dropped out to pursue a musical career.
-              Five
-              years later, on September 25, 1995, he released his first album at 18 years of age. His second album,
-              which
-              was recorded in Spanish, was released on January 29, 1997.</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-3 mt-md-0">
-          <div class="cus-artist-bg-img cus-artist-img-4 f-left  mr-3"></div>
-          <div>
-            <h3 class="media-head">Simisola Ogunleye</h3>
-            <h5 class="strong red">Nigerian singer, songwriter and actress</h5>
-            <p class="artist-bio">Simi was born in Ojuelegba, a suburb of Surulere, Lagos state, Nigeria, and also
-              raised by a single mum
-              following her parents were separated when she was just 9. She penned her first song at the age of 10 and
-              began singing at the age of 16. As a result of her passion for music, she joined her church's teenage
-              choir. Simi attended Stars International College, in Ikorodu, Lagos State, thereafter she went to study
-              mass communication at Covenant University. She wrote her first song at age 10. At that time, she used to
-              sing and dance in her local church choir. Simi got married to Adekunle Gold on the 9th of January 2019.
+      <section class="upcoming">
+        <h2 class="ticket-head big-heading font-family">Main Program</h2>
+        <div class="flex-container">
+          <article class="flex-article">
+            <div class="icon-img"><i class="fas fa-home"></i></div>
+            <h3 class="red-heading">Welcome</h3>
+            <p>
+              We are glad to welcome everyone who want to work with us, our
+              hands are always open. feel at home!
             </p>
+          </article>
+          <article class="flex-article">
+            <div class="icon-img"><i class="fas fa-globe-africa"></i></div>
+            <h3 class="red-heading">Connection</h3>
+            <p>
+              Working with us will open many doors, you will get to meet our
+              differents partners from around the world
+            </p>
+          </article>
+          <article class="flex-article">
+            <div class="icon-img"><i class="fas fa-user-friends"></i></div>
+            <h3 class="red-heading">Assistance</h3>
+            <p>
+              We work with experts who promoted concerts for many years,
+              choosing us is the best decision you can take
+            </p>
+          </article>
+          <article class="flex-article">
+            <div class="icon-img">
+              <i class="fa fa-percent" aria-hidden="true"></i>
+            </div>
+            <h3 class="red-heading">Discount</h3>
+            <p>
+              We make sure to give discount of 10% for our loyal clients who
+              always choose to work with us.
+            </p>
+          </article>
+          <article class="flex-article">
+            <div class="icon-img">
+              <i class="fa fa-glass" aria-hidden="true"></i>
+            </div>
+            <h3 class="red-heading">Friendship</h3>
+            <p>
+              If you choose to work with us you become our friends and family,
+              we share everything. we love you!
+            </p>
+          </article>
+        </div>
+        <a href="#">
+          <h2 class="big-heading bottom">See Past Concerts</h2>
+        </a>
+      </section>
+
+      <!-- trending-section -->
+      <div class="container-fluid mt-5 px-md-5 trending">
+        <h5 class="ticket-head color font-family">FEATURED ARTISTS</h5>
+        <div class="row mt-4 trending-concert">
+          <div class="col-md-6">
+            <div class="cus-artist-img-1 cus-artist-bg-img f-left mr-3"></div>
+            <div>
+              <h3 class="media-head">Alicia Keys</h3>
+              <h5 class="strong red">
+                American singer-songwriter, pianist, and actress
+              </h5>
+              <p>
+                Alicia Keys was born in Hell's Kitchen, Manhattan, to Terria
+                Joseph (née Teresa M. Augello), a paralegal who was also an
+                occasional actress, and Craig Cook, a flight attendant. Her
+                father is African-American and her mother, who is Caucasian, is
+                of Italian and English/Irish/Scottish ancestry. Alicia began
+                taking piano lessons at age 7 at her mother's insistence. She
+                proved to be such a prodigy that she was later accepted into the
+                prestigious Professional Performance Arts School of Manhattan,
+                where she majored in choir. only her musical talent but also her
+                grades proved to be so exceptional that she was allowed to
+                graduate, as valedictorian, at age 16. In 1998, she signed with
+                Arista Records, and wrote, produced, and recorded her own
+                albums.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3 mt-md-o">
+            <div class="cus-artist-bg-img cus-artist-img-2 f-left mr-3"></div>
+            <div>
+              <h3 class="media-head">Kadja Nin</h3>
+              <h5 class="strong red">Burundian singer-songwriter</h5>
+              <p>
+                Khadja Nin was born in 1959 and raised in Burundi, a small
+                African country squeezed in between two gigantic territories,
+                the Democratic Republic of Congo and Tanzania. She grew up
+                peacefully in a family of eight children, where she made her
+                first steps into music. “Music was always for fun“, she
+                confesses, though she already wished to be Myriam Makeba. When
+                she turned 16, she left her family and went to Congo to pursue
+                her studies. At the age of 17, she met her future husband and
+                moved with him into the forest, where they ran some lodges for
+                tourists in search of big thrills. She also gave birth to her
+                son and thought that for her music was definitely over.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 display-sm-none">
+          <div class="col-md-6">
+            <div class="cus-artist-bg-img cus-artist-img-3 f-left mr-3"></div>
+            <div>
+              <h3 class="media-head">Enrique Iglesias</h3>
+              <h5 class="strong red">
+                Spanish singer, songwriter, actor and record producer who is
+                known as the King of Latin Pop.
+              </h5>
+              <p>
+                Enrique Miguel Iglesias Preysler was born in Madrid, Spain, to
+                Spanish singer Julio Iglesias and Spanish-Filipino socialite
+                Isabel Preysler. In 1979, his parents' marriage was annulled. He
+                was eight years old when he moved to the U.S., and at the age of
+                15, secretly began writing music. He studied business
+                administration at the University of Miami for a year before he
+                dropped out to pursue a musical career. Five years later, on
+                September 25, 1995, he released his first album at 18 years of
+                age. His second album, which was recorded in Spanish, was
+                released on January 29, 1997.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3 mt-md-0">
+            <div class="cus-artist-bg-img cus-artist-img-4 f-left mr-3"></div>
+            <div>
+              <h3 class="media-head">Simisola Ogunleye</h3>
+              <h5 class="strong red">
+                Nigerian singer, songwriter and actress
+              </h5>
+              <p class="artist-bio">
+                Simi was born in Ojuelegba, a suburb of Surulere, Lagos state,
+                Nigeria, and also raised by a single mum following her parents
+                were separated when she was just 9. She penned her first song at
+                the age of 10 and began singing at the age of 16. As a result of
+                her passion for music, she joined her church's teenage choir.
+                Simi attended Stars International College, in Ikorodu, Lagos
+                State, thereafter she went to study mass communication at
+                Covenant University. She wrote her first song at age 10. At that
+                time, she used to sing and dance in her local church choir. Simi
+                got married to Adekunle Gold on the 9th of January 2019.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Sponsors -->
-    <div class="sponsors">
-      <h5 class="ticket-head bottom-head font-family">PARTNERS</h5>
-      <ul class="sponsors-list">
-        <li class="mozilla"><a href=""><i class="fab fa-facebook"></i></a></li>
-        <li class="google"><a href=""><i class="fab fa-twitter"></i></a></li>
-        <li class="nevr"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-        <li class="daum"><a href=""><i class="fab fa-instagram"></i></a></li>
-        <li class="airbnb"><a href=""><i class="fab fa-tumblr"></i></a></li>
-      </ul>
-    </div>
-  </main>
-
-  <!-- footer -->
-  <footer class="footer-container">
-    <div class="footer-logo">
-      <a href="index.html"><img src="./images/logo.PNG" alt="logo"></a>
-    </div>
-    <div class="footer-links">
-      <p class="footer-text">&copy; 2020 Concerts Promotion, Some Rights Reserved</p>
-      <div class="top-footer">
-        <ul class="links">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="about.html">Trending News</a></li>
-          <li><a href="#">Upcoming Concerts</a></li>
-          <li><a href="#">Privacy & Policy</a></li>
-          <li><a href="#">Helps & Support</a></li>
-        </ul>
-        <ul class="links top">
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Get The App</a></li>
-          <li><a href="#">Featured Artists</a></li>
+      <!-- Sponsors -->
+      <div class="sponsors">
+        <h5 class="ticket-head bottom-head font-family">PARTNERS</h5>
+        <ul class="sponsors-list">
+          <li class="mozilla">
+            <a href=""><i class="fab fa-facebook"></i></a>
+          </li>
+          <li class="google">
+            <a href=""><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nevr">
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li class="daum">
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="airbnb">
+            <a href=""><i class="fab fa-tumblr"></i></a>
+          </li>
         </ul>
       </div>
-    </div>
-  </footer>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
-</body>
+    </main>
 
+    <!-- footer -->
+    <footer class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html"><img src="./images/logo.PNG" alt="logo" /></a>
+      </div>
+      <div class="footer-links">
+        <p class="footer-text">
+          &copy; 2020 Concerts Promotion, Some Rights Reserved
+        </p>
+        <div class="top-footer">
+          <ul class="links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="about.html">Trending News</a></li>
+            <li><a href="#">Upcoming Concerts</a></li>
+            <li><a href="#">Privacy & Policy</a></li>
+            <li><a href="#">Helps & Support</a></li>
+          </ul>
+          <ul class="links top">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Get The App</a></li>
+            <li><a href="#">Featured Artists</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
