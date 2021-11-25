@@ -1,6 +1,6 @@
-# Capstone-Project
+# CONCERT-PROMOTION
 
-This project consists of a HTML & CSS Capstone Project, based on an online website for a conference. It's a real-world-like project, built with business specifications.
+This project consists of an HTML & CSS Capstone Project, based on an online website for concert promotion. It's a real-world-like project, built with business specifications.
 
 ![screenshot](./images/shot.PNG)
 
