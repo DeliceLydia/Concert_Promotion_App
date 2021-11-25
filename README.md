@@ -30,7 +30,7 @@ We should follow the guidelines of the given design, including:
 - Bootstrap
 ​
 ## Live Demo
-[Live Demo Link](https://delicelydia.github.io/Capstone-Project/.)
+[Live Demo Link](http://lydiaportfolio.me/Concert_Promotion_App/)
 ​
 ## Author
 - Github: [@DeliceLydia](https://github.com/DeliceLydia)
